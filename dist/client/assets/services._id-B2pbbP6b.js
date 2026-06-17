@@ -1,0 +1,1 @@
+import{l as e}from"./i18n-DeYfgCcQ.js";import{t}from"./AppShell-PpWIGXZu.js";var n=e(),r=()=>(0,n.jsx)(t,{children:(0,n.jsx)(`div`,{className:`mx-auto max-w-2xl p-10 text-center`,children:(0,n.jsx)(`p`,{className:`text-muted-foreground`,children:`Provider not found.`})})});export{r as notFoundComponent};
