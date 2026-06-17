@@ -1,7 +1,4 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": ".output/public",
-  "serverless": {
-    "default": ".output/server/index.mjs"
-  }
+  "outputDirectory": ".output"
 }
