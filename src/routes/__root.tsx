@@ -99,6 +99,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
+      {
+        rel: "icon",
+        type: "image/svg+xml",
+        href: "/favicon.ico",
+      },
     ],
   }),
   shellComponent: RootShell,
@@ -112,6 +117,7 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+        <link rel="icon" type="image/svg+xml" href="/favicon.ico?v=2" />
       </head>
       <body>
         {children}
